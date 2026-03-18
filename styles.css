@@ -442,8 +442,8 @@ body {
 
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 
 .contact-card {
@@ -514,6 +514,12 @@ body {
 .contact-hint {
     font-size: 0.85rem;
     color: var(--text-light);
+}
+
+@media (max-width: 1024px) {
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
