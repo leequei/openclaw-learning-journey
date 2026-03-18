@@ -45,56 +45,75 @@
         <div class="container">
             <h2 class="section-title">🗓️ 7天学习路径</h2>
             <p class="section-subtitle">从入门到实战，循序渐进掌握 OpenClaw</p>
-            <div class="path-grid">
-                <div class="path-item completed">
-                    <div class="path-day">Day 1</div>
-                    <div class="path-icon">🚀</div>
-                    <h3>初识 OpenClaw</h3>
-                    <p>安装配置，了解基础架构</p>
-                    <span class="path-status">✅ 已完成</span>
+            <div class="path-wrapper">
+                <div class="path-row">
+                    <div class="path-module completed">
+                        <div class="module-header">
+                            <span class="module-day">Day 1</span>
+                            <span class="module-status">✅</span>
+                        </div>
+                        <div class="module-icon">🚀</div>
+                        <h3>初识 OpenClaw</h3>
+                        <p>安装配置，了解基础架构</p>
+                    </div>
+                    <div class="path-module completed">
+                        <div class="module-header">
+                            <span class="module-day">Day 2</span>
+                            <span class="module-status">✅</span>
+                        </div>
+                        <div class="module-icon">📝</div>
+                        <h3>SOUL.md 配置</h3>
+                        <p>定义AI身份和工作边界</p>
+                    </div>
+                    <div class="path-module completed">
+                        <div class="module-header">
+                            <span class="module-day">Day 3</span>
+                            <span class="module-status">✅</span>
+                        </div>
+                        <div class="module-icon">⚡</div>
+                        <h3>第一个 Skill</h3>
+                        <p>开发每日简报自动化</p>
+                    </div>
+                    <div class="path-module completed">
+                        <div class="module-header">
+                            <span class="module-day">Day 4</span>
+                            <span class="module-status">✅</span>
+                        </div>
+                        <div class="module-icon">💬</div>
+                        <h3>飞书接入</h3>
+                        <p>配置Webhook消息推送</p>
+                    </div>
                 </div>
-                <div class="path-item completed">
-                    <div class="path-day">Day 2</div>
-                    <div class="path-icon">📝</div>
-                    <h3>SOUL.md 配置</h3>
-                    <p>定义AI身份和工作边界</p>
-                    <span class="path-status">✅ 已完成</span>
+                <div class="path-row path-row-center">
+                    <div class="path-module completed">
+                        <div class="module-header">
+                            <span class="module-day">Day 5</span>
+                            <span class="module-status">✅</span>
+                        </div>
+                        <div class="module-icon">⏰</div>
+                        <h3>Cron 定时任务</h3>
+                        <p>自动化运行无需人工</p>
+                    </div>
+                    <div class="path-module completed">
+                        <div class="module-header">
+                            <span class="module-day">Day 6</span>
+                            <span class="module-status">✅</span>
+                        </div>
+                        <div class="module-icon">🔧</div>
+                        <h3>故障排查</h3>
+                        <p>API配置超时优化</p>
+                    </div>
+                    <div class="path-module active">
+                        <div class="module-header">
+                            <span class="module-day">Day 7</span>
+                            <span class="module-status">🔄</span>
+                        </div>
+                        <div class="module-icon">🎯</div>
+                        <h3>实战部署</h3>
+                        <p>系统稳定持续迭代</p>
+                    </div>
                 </div>
-                <div class="path-item completed">
-                    <div class="path-day">Day 3</div>
-                    <div class="path-icon">⚡</div>
-                    <h3>第一个 Skill</h3>
-                    <p>开发每日简报自动化</p>
-                    <span class="path-status">✅ 已完成</span>
-                </div>
-                <div class="path-item completed">
-                    <div class="path-day">Day 4</div>
-                    <div class="path-icon">💬</div>
-                    <h3>飞书接入</h3>
-                    <p>配置Webhook，消息推送</p>
-                    <span class="path-status">✅ 已完成</span>
-                </div>
-                <div class="path-item completed">
-                    <div class="path-day">Day 5</div>
-                    <div class="path-icon">⏰</div>
-                    <h3>Cron 定时任务</h3>
-                    <p>自动化运行，无需人工</p>
-                    <span class="path-status">✅ 已完成</span>
-                </div>
-                <div class="path-item completed">
-                    <div class="path-day">Day 6</div>
-                    <div class="path-icon">🔧</div>
-                    <h3>故障排查</h3>
-                    <p>API配置，超时优化</p>
-                    <span class="path-status">✅ 已完成</span>
-                </div>
-                <div class="path-item active">
-                    <div class="path-day">Day 7</div>
-                    <div class="path-icon">🎯</div>
-                    <h3>实战部署</h3>
-                    <p>系统稳定运行，持续迭代</p>
-                    <span class="path-status">🔄 进行中</span>
-                </div>
+                <div class="path-connector"></div>
             </div>
         </div>
     </section>
@@ -162,65 +181,126 @@
         <div class="container">
             <h2 class="section-title">📖 学习日志</h2>
             <p class="section-subtitle">Day by Day 成长记录，踩坑与收获</p>
-            <div class="log-grid">
-                <article class="log-card">
-                    <div class="log-header">
-                        <span class="log-day">Day 7</span>
-                        <span class="log-date">2026-03-18</span>
-                    </div>
-                    <h3>🎯 系统稳定运行 + 网站上线</h3>
-                    <p>每日简报系统已连续运行7天无故障。今天用OpenClaw + GitHub Pages搭建了这个学习记录网站，全程AI辅助完成。从代码编写到部署上线，体验了一次完整的AI协作开发流程。</p>
-                    <div class="log-stats">
-                        <span>📰 简报推送：7天</span>
-                        <span>🌐 网站上线：1个</span>
-                    </div>
-                </article>
-                <article class="log-card">
-                    <div class="log-header">
-                        <span class="log-day">Day 6</span>
-                        <span class="log-date">2026-03-17</span>
-                    </div>
-                    <h3>🔧 修复API配置问题</h3>
-                    <p>发现简报推送失败，排查后发现是TAVILY_API_KEY环境变量配置问题。同时优化了超时设置（120s→45s），将串行搜索改为并行，推送速度提升3倍。</p>
-                    <div class="log-tags">
-                        <span class="log-tag">踩坑</span>
-                        <span class="log-tag">优化</span>
-                    </div>
-                </article>
-                <article class="log-card">
-                    <div class="log-header">
-                        <span class="log-day">Day 5</span>
-                        <span class="log-date">2026-03-16</span>
-                    </div>
-                    <h3>⏰ Cron定时任务配置成功</h3>
-                    <p>配置每天早上8:00自动触发简报推送。学会了HEARTBEAT.md的编写，让Agent可以定期自主检查任务。现在完全不需要人工干预，系统自动运转。</p>
-                    <div class="log-tags">
-                        <span class="log-tag">自动化</span>
-                        <span class="log-tag">Cron</span>
+            
+            <div class="timeline-container">
+                <!-- Day 7 -->
+                <article class="timeline-item latest">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-meta">
+                                <span class="timeline-day">Day 7</span>
+                                <span class="timeline-date">2026-03-18</span>
+                                <span class="timeline-badge new">最新</span>
+                            </div>
+                            <h3>🎯 系统稳定运行 + 网站上线</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <p>每日简报系统已连续运行7天无故障。今天用OpenClaw + GitHub Pages搭建了这个学习记录网站，全程AI辅助完成。</p>
+                            <div class="timeline-highlights">
+                                <div class="highlight-item">
+                                    <span class="highlight-icon">📰</span>
+                                    <span class="highlight-text">简报推送 7天</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <span class="highlight-icon">🌐</span>
+                                    <span class="highlight-text">网站上线</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <span class="highlight-icon">🤖</span>
+                                    <span class="highlight-text">AI全程辅助</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </article>
-                <article class="log-card">
-                    <div class="log-header">
-                        <span class="log-day">Day 3-4</span>
-                        <span class="log-date">2026-03-13</span>
-                    </div>
-                    <h3>💬 飞书接入与第一个Skill</h3>
-                    <p>成功配置飞书Webhook，开发了第一个Skill：每日简报。接入Tavily API实现新闻搜索，自动整理4个板块（国内/科技/国际/农业）的内容。</p>
-                    <div class="log-tags">
-                        <span class="log-tag">Skill开发</span>
-                        <span class="log-tag">飞书</span>
+
+                <!-- Day 6 -->
+                <article class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-meta">
+                                <span class="timeline-day">Day 6</span>
+                                <span class="timeline-date">2026-03-17</span>
+                                <span class="timeline-badge bug">踩坑</span>
+                            </div>
+                            <h3>🔧 修复API配置问题</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <p>发现简报推送失败，排查后发现是TAVILY_API_KEY环境变量配置问题。优化超时设置（120s→45s），串行改并行，推送速度提升3倍。</p>
+                            <div class="timeline-tags">
+                                <span class="tag-bug">故障排查</span>
+                                <span class="tag-opt">性能优化</span>
+                            </div>
+                        </div>
                     </div>
                 </article>
-                <article class="log-card">
-                    <div class="log-header">
-                        <span class="log-day">Day 1-2</span>
-                        <span class="log-date">2026-03-11</span>
+
+                <!-- Day 5 -->
+                <article class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-meta">
+                                <span class="timeline-day">Day 5</span>
+                                <span class="timeline-date">2026-03-16</span>
+                                <span class="timeline-badge auto">自动化</span>
+                            </div>
+                            <h3>⏰ Cron定时任务配置成功</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <p>配置每天早上8:00自动触发简报推送。学会HEARTBEAT.md编写，让Agent定期自主检查任务。完全无需人工干预。</p>
+                            <div class="timeline-tags">
+                                <span class="tag-auto">Cron</span>
+                                <span class="tag-auto">定时任务</span>
+                            </div>
+                        </div>
                     </div>
-                    <h3>🚀 初识OpenClaw</h3>
-                    <p>安装OpenClaw，配置了基础环境。编写了SOUL.md定义Agent身份，了解了AGENTS.md、MEMORY.md等核心文件的作用。启用了read/exec工具，开始探索自动化可能性。</p>
-                    <div class="log-tags">
-                        <span class="log-tag">起步</span>
-                        <span class="log-tag">配置</span>
+                </article>
+
+                <!-- Day 3-4 -->
+                <article class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-meta">
+                                <span class="timeline-day">Day 3-4</span>
+                                <span class="timeline-date">2026-03-13</span>
+                                <span class="timeline-badge feat">功能开发</span>
+                            </div>
+                            <h3>💬 飞书接入与第一个Skill</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <p>成功配置飞书Webhook，开发第一个Skill：每日简报。接入Tavily API实现新闻搜索，自动整理4个板块内容。</p>
+                            <div class="timeline-tags">
+                                <span class="tag-feat">Skill开发</span>
+                                <span class="tag-feat">飞书接入</span>
+                                <span class="tag-feat">Tavily</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Day 1-2 -->
+                <article class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-meta">
+                                <span class="timeline-day">Day 1-2</span>
+                                <span class="timeline-date">2026-03-11</span>
+                                <span class="timeline-badge start">起步</span>
+                            </div>
+                            <h3>🚀 初识OpenClaw</h3>
+                        </div>
+                        <div class="timeline-body">
+                            <p>安装OpenClaw，配置基础环境。编写SOUL.md定义Agent身份，了解AGENTS.md、MEMORY.md等核心文件作用。启用read/exec工具。</p>
+                            <div class="timeline-tags">
+                                <span class="tag-start">环境配置</span>
+                                <span class="tag-start">SOUL.md</span>
+                            </div>
+                        </div>
                     </div>
                 </article>
             </div>
